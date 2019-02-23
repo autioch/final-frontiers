@@ -1,0 +1,25 @@
+{
+  "name": "final-frontiers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autioch/final-frontiers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/autioch/final-frontiers/issues"
+  },
+  "homepage": "https://github.com/autioch/final-frontiers#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^4.19.1",
+    "eslint-config-qb": "^1.0.0",
+    "mocha": "^6.0.1"
+  }
+}
