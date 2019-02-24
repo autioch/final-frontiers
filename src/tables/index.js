@@ -7,6 +7,7 @@ const EXPLORATION_PARAGRAPH = require('./explorationParagraph');
 const INTELLIGENCE = require('./intelligence');
 const PLANET = require('./planet');
 const PLANET_PARAGRAPH = require('./planetParagraph');
+const RESOURCE_CONTROL = require('./resourceControl');
 const RESOURCE_MODIFICATOR = require('./resourceModificator');
 const SPACE_PARAGRAPH = require('./spaceParagraph');
 
@@ -20,6 +21,7 @@ module.exports = {
   INTELLIGENCE,
   PLANET,
   PLANET_PARAGRAPH,
+  RESOURCE_CONTROL,
   RESOURCE_MODIFICATOR,
   SPACE_PARAGRAPH
 };
