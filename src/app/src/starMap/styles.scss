@@ -1,0 +1,172 @@
+// http://brenna.github.io/csshexagon/
+
+$hex-size: 6em;
+$border-size: 1px;
+
+.starmap {
+  background-color: #999;
+  padding: $hex-size $hex-size $hex-size * 3 / 2;
+}
+
+.starmap-row {
+  display: flex;
+  margin-bottom: 1px;
+}
+
+.hex {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #222;
+  height: $hex-size;
+  width: $hex-size / 3 * 2;
+  position: relative;
+  margin-left: calc(#{$hex-size / 4} + 1px);
+  z-index: 0;
+  color: #eee;
+  font-size: .75em;
+  text-shadow: 0 0 1px #000;
+
+  &:nth-child(2n) {
+    top: calc(#{$hex-size / 2} + .5px);
+  }
+
+  &::before {
+    content: '';
+    z-index: -1;
+    border-top: solid #{$hex-size / 2} transparent;
+    border-bottom: solid #{$hex-size / 2} transparent;
+    border-right: solid #{$hex-size / 4} #222;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    left: -#{$hex-size / 4};
+  }
+
+  &::after {
+    content: '';
+    z-index: -1;
+    border-top: solid #{$hex-size / 2} transparent;
+    border-bottom: solid #{$hex-size / 2} transparent;
+    border-left: solid #{$hex-size / 4} #222;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    right: -#{$hex-size / 4};
+  }
+}
+
+.hex-id {
+  position: absolute;
+  top: .1em;
+  left: .1em;
+}
+
+// @keyframes planet-rotate {
+//   100% {
+//     transform: rotate(360deg);
+//   }
+// }
+
+.planet {
+  border-radius: 50%;
+  box-shadow: 0 0 .25em #000;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  // animation: planet-rotate linear 3s infinite;
+  overflow: hidden;
+
+  &.distance-1 {
+    background: #d30;
+  }
+
+  &.distance-2 {
+    background: #ff0;
+  }
+
+  &.distance-3 {
+    background: #0ff;
+  }
+
+  &.distance-4 {
+    background: #3fa;
+  }
+
+  &.size-1 {
+    height: #{$hex-size * .2};
+    width: #{$hex-size * .2};
+  }
+
+  &.size-2 {
+    height: #{$hex-size * .4};
+    width: #{$hex-size * .4};
+  }
+
+  &.size-3 {
+    height: #{$hex-size * .6};
+    width: #{$hex-size * .6};
+  }
+
+  &.size-4 {
+    height: #{$hex-size * .8};
+    width: #{$hex-size * .8};
+  }
+
+  // &::after {
+  //   content: '';
+  //   border-radius: 50%;
+  //   top: 0;
+  //   left: 0;
+  //   right: 50%;
+  //   bottom: 50%;
+  //   background: #090;
+  //   position: absolute;
+  // }
+}
+
+@keyframes starship-orbit {
+  100% {
+    transform: rotate(360deg) translate(-#{$hex-size / 4}, -#{$hex-size / 4}) rotate(-45deg);
+  }
+}
+
+@keyframes starship-space {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: translateY(#{$hex-size / 20});
+  }
+
+  50% {
+    transform: none;
+  }
+
+  75% {
+    transform: translateY(-#{$hex-size / 20});
+  }
+}
+
+.starship {
+  display: block;
+  width: 0;
+  height: 0;
+  color: #fff;
+  border-top: solid #{$hex-size / 6} transparent;
+  border-left: solid #{$hex-size / 3} #fff;
+
+  &.in-orbit {
+    transform: rotate(0) translate(-#{$hex-size / 4}, -#{$hex-size / 4}) rotate(-45deg);
+    animation: starship-orbit linear 3s infinite;
+  }
+
+  &.in-space {
+    animation: starship-space linear 2s infinite;
+  }
+}

@@ -1,0 +1,54 @@
+import { ENCOUNTER } from '../types';
+
+export default {
+  '-1': {
+    [ENCOUNTER.AGREEMENT]: '010',
+    [ENCOUNTER.FIGHT]: '011',
+    [ENCOUNTER.ESCAPE]: '012'
+  },
+  '0': {
+    [ENCOUNTER.AGREEMENT]: '013',
+    [ENCOUNTER.FIGHT]: '014',
+    [ENCOUNTER.ESCAPE]: '015'
+  },
+  '1': {
+    [ENCOUNTER.AGREEMENT]: '013',
+    [ENCOUNTER.FIGHT]: '014',
+    [ENCOUNTER.ESCAPE]: '015'
+  },
+  '2': {
+    [ENCOUNTER.AGREEMENT]: '016',
+    [ENCOUNTER.FIGHT]: '017',
+    [ENCOUNTER.ESCAPE]: '018'
+  },
+  '3': {
+    [ENCOUNTER.AGREEMENT]: '019',
+    [ENCOUNTER.FIGHT]: '020',
+    [ENCOUNTER.ESCAPE]: '018'
+  },
+  '4': {
+    [ENCOUNTER.AGREEMENT]: '019',
+    [ENCOUNTER.FIGHT]: '020',
+    [ENCOUNTER.ESCAPE]: '018'
+  },
+  '5': {
+    [ENCOUNTER.AGREEMENT]: '016',
+    [ENCOUNTER.FIGHT]: '017',
+    [ENCOUNTER.ESCAPE]: '018'
+  },
+  '6': {
+    [ENCOUNTER.AGREEMENT]: '016',
+    [ENCOUNTER.FIGHT]: '023',
+    [ENCOUNTER.ESCAPE]: '021'
+  },
+  '7': {
+    [ENCOUNTER.AGREEMENT]: '022',
+    [ENCOUNTER.FIGHT]: '023',
+    [ENCOUNTER.ESCAPE]: '021'
+  },
+  '8': {
+    [ENCOUNTER.AGREEMENT]: '025',
+    [ENCOUNTER.FIGHT]: '026',
+    [ENCOUNTER.ESCAPE]: '024'
+  }
+};
