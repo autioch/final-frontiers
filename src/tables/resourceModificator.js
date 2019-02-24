@@ -1,6 +1,5 @@
 /* eslint-disable no-magic-numbers */
-
-const TERRAIN = require('../types/terrain');
+const { TERRAIN } = require('../types');
 
 module.exports = {
   [TERRAIN.PLAINS]: 1,

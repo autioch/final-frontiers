@@ -1,4 +1,4 @@
-const ENCOUNTER = require('../types/encounter');
+const { ENCOUNTER } = require('../types');
 
 module.exports = {
   '-1': {

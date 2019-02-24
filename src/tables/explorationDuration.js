@@ -1,12 +1,10 @@
 /* eslint-disable no-magic-numbers */
-
-const TERRAIN = require('../types/terrain');
-const ACTIONS = require('../types/actions');
+const { EXPLORATION, TERRAIN } = require('../types');
 
 const DURATION_KEYS = [
-  ACTIONS.ENTER_FOOT,
-  ACTIONS.ENTER_ROVER,
-  ACTIONS.RESEARCH
+  EXPLORATION.ENTER_FOOT,
+  EXPLORATION.ENTER_ROVER,
+  EXPLORATION.RESEARCH
 ];
 
 const DURATIONS = {

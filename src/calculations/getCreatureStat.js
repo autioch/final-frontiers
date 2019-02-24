@@ -1,9 +1,9 @@
-const CREATURE_STATS = require('./tables/creatureStats');
+const { CREATURE_STAT } = require('../tables');
 const rollDice = require('./rollDice');
 
 module.exports = function getCreatureStat(statValue) {
   const firstRoll = rollDice();
-  const firstResult = CREATURE_STATS[firstRoll];
+  const firstResult = CREATURE_STAT[firstRoll];
 
   if (typeof firstResult === 'number') {
     return firstResult + statValue;
