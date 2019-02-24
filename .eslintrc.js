@@ -18,6 +18,7 @@ module.exports = {
     'no-await-in-loop': ['off'],
     'newline-per-chained-call': ['off'],
     'no-inline-comments': ['off'],
+    'no-plusplus': ['off'],
     'line-comment-position': ['off']
   }
 };

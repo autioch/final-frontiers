@@ -3,7 +3,7 @@
 /* eslint-disable object-property-newline */
 const { PLANET } = require('../tables');
 
-module.exports = [
+const table = [
   [
     { id: 11, planet: PLANET.KORKRAN },
     { id: 21 },
@@ -47,3 +47,12 @@ module.exports = [
     { id: 47 }
   ]
 ];
+
+table.forEach((row, rowIndex) => {
+  row.forEach((cell, colIndex) => {
+    cell.rowIndex = rowIndex;
+    cell.colIndex = colIndex;
+  });
+});
+
+module.exports = table;

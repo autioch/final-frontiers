@@ -2,6 +2,8 @@
 
 module.exports = {
   COMMANDER: {
+    id: 'commander',
+    type: 'crew',
     capture: 3,
     fight: 3,
     weight: 5,
@@ -16,6 +18,8 @@ module.exports = {
     }
   },
   MEDIC: {
+    id: 'medic',
+    type: 'crew',
     capture: 3,
     fight: 2,
     weight: 6,
@@ -30,6 +34,8 @@ module.exports = {
     }
   },
   NAVIGATOR: {
+    id: 'navigator',
+    type: 'crew',
     capture: 3,
     fight: 2,
     weight: 6,
@@ -44,6 +50,8 @@ module.exports = {
     }
   },
   SOLDIER: {
+    id: 'soldier',
+    type: 'crew',
     capture: 4,
     fight: 3,
     weight: 7,
@@ -58,6 +66,8 @@ module.exports = {
     }
   },
   SCOUT: {
+    id: 'scout',
+    type: 'crew',
     capture: 3,
     fight: 2,
     weight: 7,
@@ -72,6 +82,8 @@ module.exports = {
     }
   },
   SCIENTIST: {
+    id: 'scientist',
+    type: 'crew',
     capture: 4,
     fight: 2,
     weight: 6,
@@ -86,6 +98,8 @@ module.exports = {
     }
   },
   ENGINEER: {
+    id: 'engineer',
+    type: 'crew',
     capture: 3,
     fight: 2,
     weight: 6,

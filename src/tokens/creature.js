@@ -3,6 +3,7 @@
 
 module.exports = [
   {
+    type: 'creature',
     label: 'Szklak',
     intelligence: 2,
     fight: 1,
@@ -12,6 +13,7 @@ module.exports = [
     victoryPoints: 3
   },
   {
+    type: 'creature',
     label: 'Osa-X',
     intelligence: -3,
     fight: 1,
@@ -21,6 +23,7 @@ module.exports = [
     victoryPoints: 2
   },
   {
+    type: 'creature',
     label: 'Pełzacz',
     intelligence: 1,
     fight: 2,
@@ -30,6 +33,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Energoid',
     intelligence: 0,
     fight: 1,
@@ -39,6 +43,7 @@ module.exports = [
     victoryPoints: 2
   },
   {
+    type: 'creature',
     label: 'Lustrzak',
     intelligence: -2,
     fight: 3,
@@ -48,6 +53,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Urzamax',
     intelligence: -2,
     fight: 3,
@@ -57,6 +63,7 @@ module.exports = [
     victoryPoints: 2
   },
   {
+    type: 'creature',
     label: 'Zęborośl',
     intelligence: -2,
     fight: 2,
@@ -66,6 +73,7 @@ module.exports = [
     victoryPoints: 3
   },
   {
+    type: 'creature',
     label: 'Muszlak',
     intelligence: 1,
     fight: 1,
@@ -75,6 +83,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Amebolot',
     intelligence: 0,
     fight: 0,
@@ -84,6 +93,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Rogopiór',
     intelligence: -2,
     fight: 3,
@@ -93,6 +103,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Płaszczon',
     intelligence: 1,
     fight: -2,
@@ -102,6 +113,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Misio',
     intelligence: 2,
     fight: 3,
@@ -111,6 +123,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Drada',
     intelligence: -3,
     fight: 1,
@@ -120,6 +133,7 @@ module.exports = [
     victoryPoints: 5
   },
   {
+    type: 'creature',
     label: 'Motylnik',
     intelligence: -2,
     fight: '*',
@@ -129,6 +143,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Miażdżon',
     intelligence: -1,
     fight: 3,
@@ -138,6 +153,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Florak',
     intelligence: -2,
     fight: 3,
@@ -147,6 +163,7 @@ module.exports = [
     victoryPoints: 3
   },
   {
+    type: 'creature',
     label: 'Mamul',
     intelligence: 0,
     fight: -1,
@@ -156,6 +173,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Radrod',
     intelligence: 2,
     fight: -2,
@@ -165,6 +183,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Staloróg',
     intelligence: -1,
     fight: 0,
@@ -174,6 +193,7 @@ module.exports = [
     victoryPoints: 2
   },
   {
+    type: 'creature',
     label: 'Żółwiak',
     intelligence: 1,
     fight: 1,
@@ -183,6 +203,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Długonóg',
     intelligence: -1,
     fight: -1,
@@ -192,6 +213,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Scorozaur',
     intelligence: 0,
     fight: 1,
@@ -201,6 +223,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Nessie',
     intelligence: 0,
     fight: 3,
@@ -210,6 +233,7 @@ module.exports = [
     victoryPoints: 4
   },
   {
+    type: 'creature',
     label: 'Pancerzak',
     intelligence: -1,
     fight: -1,
@@ -219,6 +243,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Żądłoń',
     intelligence: -3,
     fight: 2,
@@ -228,6 +253,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Bąblak',
     intelligence: 0,
     fight: 0,
@@ -237,6 +263,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Aeron',
     intelligence: 2,
     fight: 2,
@@ -246,6 +273,7 @@ module.exports = [
     victoryPoints: 2
   },
   {
+    type: 'creature',
     label: 'Docidon',
     intelligence: -2,
     fight: -2,
@@ -255,6 +283,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Folizaur',
     intelligence: -2,
     fight: 2,
@@ -264,6 +293,7 @@ module.exports = [
     victoryPoints: 0
   },
   {
+    type: 'creature',
     label: 'Podgłażnik',
     intelligence: 1,
     fight: 1,
@@ -273,6 +303,7 @@ module.exports = [
     victoryPoints: 3
   },
   {
+    type: 'creature',
     label: 'Rdzawnik',
     intelligence: '*',
     fight: '*',
